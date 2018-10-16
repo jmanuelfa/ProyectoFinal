@@ -1,0 +1,11 @@
+  <svg 
+fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" 
+viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+
+        <g id="logo">
+            <circle cx="50" cy="50" fill="#007fff" id="svg_6" r ="45"  stroke="#0022FF" stroke-width="1"/>
+            <ellipse cx="50" cy="50" fill="#ffffff" id="svg_6" rx="25" ry="45" stroke="#0022FF" stroke-width="3"/>
+            <ellipse cx="50" cy="50" fill="#ffffff" id="svg_6" rx="45" ry="25" stroke="#0022FF" stroke-width="3"/>
+            <text fill="#0022FF" font-family="Cursive" font-size="30" font-weight="bold" id="svg_4" stroke="#000000" stroke-width="0" text-anchor="middle" x="50" xml:space="preserve" y="60">JMFA</text>
+          </g>
+  </svg>

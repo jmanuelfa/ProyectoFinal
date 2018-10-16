@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1><img src="images/logo.svg" alt="" width="40px"> HOJA DE VIDA</h1>
+      <h2>Datos Personales</h2>
+      <table border="0" cellpadding="0" cellspacing="0" >
+        <tr >
+          <td><strong> Nombres y Apellidos:</strong> </td>
+          <td>Juan Manuel Fernandez Aguinaga</td>
+        </tr>
+        <tr>
+          <td><strong> Fecha de Nacimiento:</strong> </td>
+          <td>24 de Julio 1982</td>
+        </tr>
+        <tr>
+          <td><strong> Lugar de Nacimiento:</strong> </td>
+          <td>Chiclayo, Lambayeque, Peru</td>
+        </tr>
+      </table>
+    </header>
+     <nav> <a href="index.html" target="_self"> Inicio</a> | <a href="educacion.html" target="_self"> Educacion</a> | <a href="experiencia.html" target="_self">Experiencia</a>
+ </nav>
+ <section>
+   <article >
+     <h2>Educación</h2>
+     <table border="1" cellpadding="0" cellspacing="0">
+       <thead>
+         <th>Año</th>
+         <th>Instituccion</th>
+         <th>Lugar</th>
+         <th>¿Culmino?</th>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1988</td><td>IE 10603</td>
+           <td>Santa Cruz- Cajamarca</td><td>SI</td>
+         </tr>
+         <tr>
+           <td>1993</td><td>IES JUAN UGAZ</td>
+           <td>Santa Cruz- Cajamarca</td><td>SI</td>
+         </tr>
+         <tr>
+           <td>2000</td><td>Universidad Pedro Ruiz Gallo</td>
+           <td>Lambayeque</td><td>SI</td>
+         </tr>
+         <tr>
+           <td></td><td></td>
+           <td></td><td></td>
+         </tr>
+       </tbody>
+     </table>
+     <h3>Agregar Estudios</h3>
+     <form  action="index.html" autocomplete="on" name="Agregar Estudios">
+
+
+         <label for="cboanio">Año:</label>
+         <select id="cboanio">
+           <option value="2010">2010</option>
+           <option value="2011">2011</option>
+           <option value="2012">2012</option>
+           <option value="2013">2013</option>
+           <option value="2014">2014</option>
+           <option value="2015">2015</option>
+           <option value="2016">2016</option>
+           <option value="2017">2017</option>
+           <option value="2018">2018</option>
+         </select><br/>
+         <label for="txtinstitucion">Institución:</label>
+         <input type="text" id="txtinstitucion" required  ></br>
+         <label for="txtlugar">Lugar:</label>
+         <input type="text" id="txtlugar"  required></br>
+         <input type="submit" id="enviar" value="Enviar">
+
+      </form>
+   </article>
+ </section>
+ <footer>
+  <p><img src="images/email.svg" alt="" width="20px">  jmanuelfa@gmail.com</p>
+  <p><img src="images/celphone.svg" alt="" width="20px">   +51979232020</p>
+ </footer>
+  </body>
+
+</html>
